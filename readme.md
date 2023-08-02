@@ -6,11 +6,17 @@ Use case: start a simple automation playbook
 
 Business Value: instead of manual actions, recurring tasks are now automated in a controlled manner.
 
+![image](https://github.com/sebw/AAP2-demo-runbook/assets/2285094/e8cb337f-076d-496e-8573-0e1cd3e9db10)
+
+
 ## Workflow launch
 
 UC: we can tie multiple playbooks together (sometimes owned and maintained by different teams) in a single workflow. We can also integrate workflows inside workflows. Workflows can be made of playbooks but also approval, inventory sync or project sync.
 
 BV: Teams collaborate together to build advanced automation.
+
+![image](https://github.com/sebw/AAP2-demo-runbook/assets/2285094/3e4698db-8a5d-4189-bd1c-b1b4e28eb093)
+
 
 ## RBAC
 
