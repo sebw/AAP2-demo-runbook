@@ -88,6 +88,8 @@ UC: AAP subscription model is based on the number of nodes it manages. When a ma
 
 BV: fair and optimized cost 
 
+![Alt text](image-2.png)
+
 https://www.ansible.com/blog/subscription-and-host-metric-changes-in-ansible-automation-platform-2.4
 
 ## Central logging
@@ -95,3 +97,7 @@ https://www.ansible.com/blog/subscription-and-host-metric-changes-in-ansible-aut
 UC: AAP produces system and job logs. Those can be centralized in a logging aggregator.
 
 BV: integration with logging aggregator, allowing for better observability of the automation platform.
+
+![Alt text](image.png)
+
+![Alt text](image-1.png)
