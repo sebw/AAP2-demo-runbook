@@ -40,15 +40,15 @@ https://www.ansible.com/blog/how-to-use-the-new-constructed-inventory-feature-in
 
 ## API endpoints
 
-UC: the Ansible Automation Platform can be integrated with third party tools, such as ITSM platforms.
+UC: the Ansible Automation Platform can be integrated with third party tools, such as ITSM platforms (ServiceNow, Jira, etc.), CI/CD tools and others. Users do not have to learn the AAP web interface as the existing tooling of the organization can pilot AAP.
 
-BV: ITSM implementation
+BV: integration with existing tools prevents reinventing the wheel, reduce knowledge gap and provides an even better ROI for such existing tools
 
 ## Start a workflow from ServiceNow
 
 UC: a user order a service that is fullfiled automatically
 
-BV: ITSM implementation
+BV: automation supports standardization, delivers services to customers faster, allowing for better SLA, less incidents, less customization and less manual/error prone work.
 
 ## Job with survey
 
