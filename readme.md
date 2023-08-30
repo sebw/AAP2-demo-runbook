@@ -80,6 +80,12 @@ UC: if the monitoring level 1 can't resolve a problem, the L2 team can restart t
 
 BV: multiple level of monitoring allow for delegation in resolving incidents.
 
+## Ansible development workflow with Gitlab
+
+UC: automation engineers want to write Ansible codes in an efficient way and quickly see the results of their changes in a "fail fast, improve faster" approach. By leveraging Gitlab and webhooks with AAP, developers can create a very efficient development workflow.
+
+BV: faster time to automation. New code can be tested by more engineers, taking advantage of practices such as 4 eyes principle. New code is tested and validated, increasting its reliability and achieving faster time to market.
+
 ## Automate your AAP
 
 UC: the automation platform can be automated using infrastructure as code practices. In case of disaster, the platform can be rebuilt from scratch
