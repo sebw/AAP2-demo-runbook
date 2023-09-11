@@ -113,3 +113,9 @@ BV: integration with logging aggregator, allowing for better observability of th
 ![Alt text](image.png)
 
 ![Alt text](image-1.png)
+
+## LDAP integration
+
+UC: organisation has a central LDAP and want to give access to the platform for groups of users
+
+BV: easy governance around who can connect to the platform. Combined with the powerful and fine grained RBAC, this allows for proper governance around your automation. 
