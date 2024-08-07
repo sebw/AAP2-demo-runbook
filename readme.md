@@ -6,6 +6,17 @@ UC: organisation has a central LDAP and want to give access to the platform for 
 
 Business value: the profile of the person automatically defines what access she has in AAP. Access is granted or revoked based on live interactions with the directory.
 
+## Central logging
+
+UC: AAP produces system and job logs and provides a basic dashboard. The events can be centralized in a logging aggregator for more advanced dashboards and alerting.
+
+BV: integration with logging aggregator, allowing for better observability of the automation platform.
+
+![Alt text](image.png)
+
+![Alt text](image-1.png)
+
+
 ## Template launch
 
 Use case: start a simple automation playbook
@@ -110,15 +121,6 @@ BV: fair and optimized cost
 
 https://www.ansible.com/blog/subscription-and-host-metric-changes-in-ansible-automation-platform-2.4
 
-## Central logging
-
-UC: AAP produces system and job logs. Those can be centralized in a logging aggregator.
-
-BV: integration with logging aggregator, allowing for better observability of the automation platform.
-
-![Alt text](image.png)
-
-![Alt text](image-1.png)
 
 
 BV: easy governance around who can connect to the platform. Combined with the powerful and fine grained RBAC, this allows for proper governance around your automation. 
