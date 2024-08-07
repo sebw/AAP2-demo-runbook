@@ -1,5 +1,11 @@
 # Ansible Automation Platform [demo runbook]
 
+## Enterprise Directory integration
+
+UC: organisation has a central LDAP and want to give access to the platform for groups of users
+
+Business value: the profile of the person automatically defines what access she has in AAP. Access is granted or revoked based on live interactions with the directory.
+
 ## Template launch
 
 Use case: start a simple automation playbook
@@ -114,8 +120,5 @@ BV: integration with logging aggregator, allowing for better observability of th
 
 ![Alt text](image-1.png)
 
-## LDAP integration
-
-UC: organisation has a central LDAP and want to give access to the platform for groups of users
 
 BV: easy governance around who can connect to the platform. Combined with the powerful and fine grained RBAC, this allows for proper governance around your automation. 
