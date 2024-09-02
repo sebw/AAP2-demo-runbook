@@ -79,6 +79,12 @@ UC: surveys allow automation engineers to create forms that can be delegated to 
 
 BV: when the organization doesn't have an ITSM platform, AAP can be used to create forms.
 
+## Advanced schedules
+
+UC: an external team (e.g.: ITSM) needs to schedule jobs in AAP, recurring or one off. We give them the opportunity to do so by using a job template with a simple survey. They can also make API calls or use the Ansible Controller collection. The appropriate workflow starts when requested and part of the workflow deletes the schedule when done.
+
+BV: AAP can become the scheduler for everything, with possibilities to create advanced schedules (recurring with exceptions, highly dynamic, on demand).
+
 ## Integration with external vault
 
 UC: instead of storing secrets in AAP, secrets can be managed in external vaults. External vaults can rotate passwords on a regular basis and AAP doesn't need to know when that happens. Anytime an automation runs, AAP will ask the external vault what is the password at runtime.
